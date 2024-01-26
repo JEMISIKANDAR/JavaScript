@@ -1,3 +1,6 @@
+/* Preffered Not to use var
+     and can also not use semicolon*/
+
 const accountID = 25;
 let accountName = "Let me Hurt You";
 let accountType = "Current";
