@@ -9,4 +9,5 @@ console.log(score);
 console.log(typeof number);
 
 console.log(score.toString().length);
+
 console.log(typeof score);
