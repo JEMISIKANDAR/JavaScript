@@ -55,8 +55,29 @@ const user = [
     },
 ]
 
-console.log(facebookUser);
+// console.log(facebookUser);
 
-console.log(Object.keys(facebookUser));  // it makes array of an object very usefull
-console.log(Object.values(facebookUser));
+// console.log(Object.keys(facebookUser));  // it makes array of an object very usefull
+// console.log(Object.values(facebookUser));
 
+ // de-structuring of object
+const course = {
+    name: "JavaScript",
+    price: "999",
+    couseInstructor: "Hitesh",
+}
+
+const {couseInstructor: instructor} = course
+
+console.log(instructor);
+
+
+ // JSON intro
+ // {
+ //    "name": "Jameel",
+ //    "coursename": "JAvascript",
+ //    "price": "free",
+
+ // }
+
+ 
