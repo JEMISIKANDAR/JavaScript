@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Last Lecture</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+    
+</body>
+<script>
+
+     function addLanguage(lang){
+        const addE = document.createElement('li')
+        addE.innerHTML = `${lang}`
+        document.querySelector('.language').
+        appendChild(addE)
+     }
+        addLanguage("Python")
+        addLanguage("GoLAng")
+
+    function optiAddLangauage(langname){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector('.language').appendChild(li)
+    }
+        optiAddLangauage("C++")
+
+    // Edit
+
+        const secondLang = document.querySelector("li:nth-child(2)")
+        secondLang.innerHTML = 'Chnaged'
+
+    // remove
+        const firstLang = document.querySelector("li:first-child")
+        firstLang.remove()
+
+</script>
+</html>
